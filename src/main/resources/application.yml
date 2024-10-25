@@ -7,7 +7,7 @@ spring:
       host: redis-19401.c340.ap-northeast-2-1.ec2.redns.redis-cloud.com
       port: 19401
       repositories:
-        enabled: false #  RedisTemplate ???? ????? ??? ???? ??? false?
+        enabled: false #  Redis Repository를 활성화 할지 여부. false 일 경우 RedisTemplate이나 직접 작성한 메서드를 통해 Redis에 접근
       password:
       database: 0
 
