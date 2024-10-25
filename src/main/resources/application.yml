@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: study-redis
+
+  data:
+    redis:
+      host: redis-19401.c340.ap-northeast-2-1.ec2.redns.redis-cloud.com
+      port: 19401
+      repositories:
+        enabled: false #  RedisTemplate ???? ????? ??? ???? ??? false?
+      password:
+      database: 0
+
+
